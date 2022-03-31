@@ -1,6 +1,6 @@
 <h1>Smart Lock</h1>
 <h2>What is it?</h2>
-<p class="quick_info">The smart lock is a lock that fits over a tradational door, and unlocks based on a knock pattern. It also has it's own smart assistant intgrated into it. The assistant can tell realtime weather, time, read news, send emails and more</p>
+<p class="quick_info">The smart lock is a lock that fits over a tradational door, and unlocks based on a knock pattern. It also has it's own smart assistant intgrated into it. The assistant can tell realtime weather, time, read news, send emails and more. https://github.com/Rahulvenkatashan/portfolio-v2</p>
 <h2>Code review</h2>
 <p>Watch these video's to get a better understanding of how it works and a live demo</p>
 <ol>
