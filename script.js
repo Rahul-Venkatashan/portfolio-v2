@@ -214,7 +214,3 @@ $('.arrw').click(function(){
     }
   }
 })
-/* P L A Y G R O U N D */
-var idx = 1;
-let y = ([...links].map((x,y) => x = document.getElementById(link_to_pages[x.id]).offsetHeight));
-let height = ([...links].map((x,y) => x = document.getElementById(link_to_pages[x.id]).clientHeight));
