@@ -92,18 +92,32 @@ $(document).on('click', '.card-content', async function() {
 
 })
 
+// Disable scroll
+function disable_scroll(){
+  const x = window.scrollX
+  const y = window.screenY
+  window.onscroll = () => window.scrollTo(x, y)
+}
+
+// Enable scroll
+function enable_scroll(){
+  window.onscroll = () => null
+}
+
 // Display more info
 $(document).on('click', '.third-point', function() {
+    disable_scroll();
     $('.more_info').addClass('more_info_open');
     document.querySelector('.card-container').style.filter = "brightness(30%)";
-    document.body.style.overflow = 'hidden';
+    // document.body.style.overflow = 'hidden';
 })
 
 // Remove more info
 $(document).on('click', '.close', function() {
+    enable_scroll()
     $('.more_info').removeClass('more_info_open');
     document.querySelector('.card-container').style.filter = ''
-    document.body.style.overflow = '';
+    // document.body.style.overflow = '';
 })
 // Set link
 function draw_line(master_elm = document.getElementById("p1") ){
